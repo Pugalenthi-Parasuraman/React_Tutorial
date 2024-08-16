@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  background-color: #f3efee;
+}
+
+.demo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1rem;
+  font-weight: 600;
+  font-size: large;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.body-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-content p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+.body-content img {
+  width: 690px;
+  filter: drop-shadow(2px 1px 3px #555);
+}
+
+.body-content .body-para h2 {
+  text-transform: uppercase;
+}
+
+.card {
+  width: 280px;
+  padding: 3em 1em;
+  text-align: center;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+
+.card:hover {
+  width: 280px;
+  padding: 3em 1em;
+  border-radius: 10px;
+  background-color:white;
+  box-shadow: 1px 1px 15px 1px gray;
+  transition: scale(0.2s);
+  font-size: 15px;
+  font-weight: 600;
+}
+

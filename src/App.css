@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.Avenger-card{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+}
